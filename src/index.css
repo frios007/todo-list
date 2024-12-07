@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.title-container {
+  margin-top: 10px;
+  text-align: center;
+  border: 5px solid #1414db7e;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title-container h3,
+.title-container p {
+  display: inline-block;
+  margin: 20px;
+  font-size: 26px;
+}
+
+.footer {
+  margin-top: 15px;
+  border-top: 2px solid #1414db7e;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer p {
+  display: inline-block;
+  margin: 10px 10px;
+  text-transform: uppercase;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.list-items {
+  margin: 10px 0;
+  padding: 0 10px;
+  background-color: #efefef;
+  border-radius: 10px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.list-items h4 {
+  font-size: 18px;
+}
+
+.priority {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 10px;
+}
+
+.option-buttons button {
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0 3px;
+  padding: 5px 0;
+}
+
+.option-buttons button:hover {
+  transform: scale(1.3);
+}
+
+.option-buttons button:last-child {
+  margin-right: 0;
+}
+
+.option-buttons {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 5px;
+}
+
+.btn-container {
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-container button {
+  width: 40%;
+  font-size: 16px;
+  background-color: #bcc1f161;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.btn-container button:hover {
+  background-color: #bcc1f1;
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+
+.form {
+  text-align: center;
+}
+.form button {
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #bcc1f161;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.form button:hover {
+  background-color: #bcc1f1;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.form input,
+.form label,
+.form select,
+.form option {
+  margin: 5px;
+}
+
+.description {
+  font-size: 16px;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.pending {
+  background-color: #eadb00;
+  color: #252525;
+  font-weight: bold;
+}
+
+.complete {
+  background-color: #63a93d;
+  color: white;
+  font-weight: bold;
+}
+
+.item-priority-High {
+  border: 2px solid #940606;
+}
+
+.item-priority-Low {
+  border: 2px solid #b3b1b1;
+}
+
+.item-priority-Medium {
+  border: 2px solid #eadb00;
+}
+
+.footer-options label,
+.footer-options select,
+.footer-options button {
+  margin: 0 7px;
+}
+
+.footer-options button {
+  background-color: #bcc1f161;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+.footer-options button:hover {
+  background-color: #bcc1f1;
+  transform: scale(1.1);
+  border: 0.5px solid black;
+}
+
+.welcome-screen {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.welcome-screen p em {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.footer {
+  margin: 10px 0;
+}
